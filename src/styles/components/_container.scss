@@ -1,0 +1,11 @@
+.container{
+    max-width: 60rem; //to center the content
+    margin: 0 auto; //distribute the extra space out of max-width in the left and right space equally
+    padding: 0 $m-size;
+}
+
+@media(min-width: $desktop-breakpoint){
+    .container{
+        padding: 0 $s-size;
+    }
+} 
